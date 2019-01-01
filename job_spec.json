@@ -1,0 +1,12 @@
+{
+  "instances": [{
+    "instance_count": 1,
+    "resources": [
+      {"name": "cpus", "type": "SCALAR", "scalar": {"value": 8.0}},
+      {"name": "mem",  "type": "SCALAR", "scalar": {"value": 40960.0}},
+      {"name": "disk", "type": "SCALAR", "scalar": {"value": 100.0}},
+      {"name": "gpus", "type": "SCALAR", "scalar": {"value": 2.0}}
+    ]
+  }],
+  "image": "docker-registry.qiyi.virtual/jarvis-public/conda-tensorflow-1.4-py27:v1.0",
+}
